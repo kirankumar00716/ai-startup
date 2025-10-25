@@ -28,7 +28,7 @@ export const LogoTicker = () => {
           }}
           className='flex flex-none gap-14 pr-14 -translate-x-1/2'>
             {[acmeLogo, pluseLogo, echoLogo, celestialLogo, apexLogo, quantumLogo, acmeLogo, pluseLogo, echoLogo, celestialLogo, apexLogo, quantumLogo].map((logo) => (
-              <img src={logo.src} key={logo.src} className='h-6 w-auto'/>
+              <img src={logo.src} key={logo.src} alt="" className='h-6 w-auto'/>
             ))}
           </motion.div>
             </div>
